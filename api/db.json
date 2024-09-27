@@ -1,0 +1,14 @@
+{
+  "teachers": [],
+  "administrators": [],
+  "meet": [
+    {
+      "id": 1,
+      "name": "aa",
+      "day": "2024-09-05",
+      "hour": "09:52",
+      "location": "aa",
+      "apiId": "v1"
+    }
+  ]
+}
