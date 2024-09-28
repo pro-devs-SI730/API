@@ -1,5 +1,30 @@
 {
-  "teachers": [],
+  "shared-area": [
+    {
+      "id": 1,
+      "name": "Swimming pool",
+      "description": "swimming pool that is shared by all the teachers and students"
+    },
+    {
+      "id": 2,
+      "name": "Primary schoolyard",
+      "description": "Schoolyard that is shared by all the primary students"
+    },
+    {
+      "id": 3,
+      "name": "Secondary schoolyard",
+      "description": "Schoolyard that is shared by all the secondary students"
+    }
+  ],
+  "teachers": [
+    {
+      "id": 1,
+      "name": "Maria",
+      "email": "maria@gmail.com",
+      "phone": "9381172111",
+      "location": "Peru"
+    }
+  ],
   "administrators": [],
   "meet": [
     {
@@ -8,7 +33,97 @@
       "day": "2024-09-05",
       "hour": "09:52",
       "location": "aa",
-      "apiId": "v1"
+      "apiId": "v1",
+      "teachers": [
+        {
+          "id": 1,
+          "name": "Maria",
+          "email": "maria@gmail.com",
+          "phone": "9381172111",
+          "location": "Peru"
+        },
+        {
+          "id": 2,
+          "name": "Pepe",
+          "email": "pepe@gmail.com",
+          "phone": "938172132",
+          "location": "Peru"
+        }
+      ]
+    }
+  ],
+  "shared-area-reservation": [
+    {
+      "id": 1,
+      "title": "Teacher 1 Reservation",
+      "start": "2024-09-28T02:00:00",
+      "end": "2024-09-28T04:00:00",
+      "areaId": 1,
+      "teacherId": 1
+    },
+    {
+      "id": 2,
+      "title": "Teacher 2 Reservation",
+      "start": "2024-09-28T00:00:00",
+      "end": "2024-09-28T02:00:00",
+      "areaId": 1,
+      "teacherId": 2
+    },
+    {
+      "id": 3,
+      "title": "Teacher 3 Reservation",
+      "start": "2024-09-27T00:00:00",
+      "end": "2024-09-27T01:00:00",
+      "areaId": 1,
+      "teacherId": 3
+    },
+    {
+      "id": 4,
+      "title": "Teacher 1 Reservation",
+      "start": "2024-09-28T02:00:00",
+      "end": "2024-09-28T04:00:00",
+      "areaId": 2,
+      "teacherId": 1
+    },
+    {
+      "id": 5,
+      "title": "Teacher 2 Reservation",
+      "start": "2024-09-28T00:00:00",
+      "end": "2024-09-28T02:00:00",
+      "areaId": 2,
+      "teacherId": 2
+    },
+    {
+      "id": 6,
+      "title": "Teacher 3 Reservation",
+      "start": "2024-09-27T00:00:00",
+      "end": "2024-09-27T01:00:00",
+      "areaId": 2,
+      "teacherId": 3
+    },
+    {
+      "id": 7,
+      "title": "Teacher 1 Reservation",
+      "start": "2024-09-28T02:00:00",
+      "end": "2024-09-28T04:00:00",
+      "areaId": 3,
+      "teacherId": 1
+    },
+    {
+      "id": 8,
+      "title": "Teacher 2 Reservation",
+      "start": "2024-09-28T00:00:00",
+      "end": "2024-09-28T02:00:00",
+      "areaId": 3,
+      "teacherId": 2
+    },
+    {
+      "id": 9,
+      "title": "Teacher 3 Reservation",
+      "start": "2024-09-27T00:00:00",
+      "end": "2024-09-27T01:00:00",
+      "areaId": 3,
+      "teacherId": 3
     }
   ]
 }
